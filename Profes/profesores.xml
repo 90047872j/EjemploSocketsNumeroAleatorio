@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_60" class="java.beans.XMLDecoder">
+ <object class="profes.ListaProfesores" id="ListaProfesores0">
+  <void property="lista">
+   <void method="add">
+    <object class="profes.Profesor">
+     <void property="apellidos">
+      <string>Martínez Rodríguez</string>
+     </void>
+     <void property="edad">
+      <int>50</int>
+     </void>
+     <void property="especialidad">
+      <string>Ciencias</string>
+     </void>
+     <void property="master">
+      <boolean>true</boolean>
+     </void>
+     <void property="nif">
+      <string>34433234A</string>
+     </void>
+     <void property="nombre">
+      <string>Pedro</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="profes.Profesor">
+     <void property="apellidos">
+      <string>Diaz Rojas</string>
+     </void>
+     <void property="autonomo">
+      <boolean>true</boolean>
+     </void>
+     <void property="edad">
+      <int>20</int>
+     </void>
+     <void property="especialidad">
+      <string>Idiomas</string>
+     </void>
+     <void property="nif">
+      <string>25547898S</string>
+     </void>
+     <void property="nombre">
+      <string>Rogelia</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
